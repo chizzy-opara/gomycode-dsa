@@ -35,6 +35,8 @@ Flowcharts are diagrams (geometric shapes with arrows) used to explain the flow 
 
 ## Checkpoint solutions
 
+> To make use of the solutions in this repository, please create a fork.
+
 ### Introduction to algorithms checkpoint
 
 At this checkpoint, you are asked to write an algorithm that read a sentence, which ends with a point, character by character, and to determine:
