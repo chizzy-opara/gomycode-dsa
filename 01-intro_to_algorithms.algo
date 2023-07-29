@@ -1,0 +1,39 @@
+ALGORITHM parseSentence
+
+VAR
+  sentence: STRING
+  length: INTEGER
+  spaces: INTEGER
+  vowels: INTEGER
+
+BEGIN
+  length := 0
+  spaces := 0
+  vowels := 0
+
+  Read(sentence)
+
+  FOR character IN sentence DO
+    length := length + 1
+
+    IF (character == " ")
+      spaces := spaces + 1
+    END_IF
+
+    IF (character IN ["a", "e", "i", "o", "u"])
+      vowels := vowels + 1
+    END_IF
+  END_FOR
+
+  IF (spaces > 0)
+    words := spaces + 1
+  ELSE IF (length > 0)
+    words := 1
+  ELSE
+    words := 0
+  END_IF
+
+  Write(sentence)
+  Write(words)
+  Write(vowels)
+END

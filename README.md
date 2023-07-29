@@ -6,7 +6,7 @@ In order to write a good computer program, the algorithms employed (or created) 
 
 ## How to write algorithms
 
-Technically, algorithms are written in programming languages. However, for the sake of simplifying a solution without needing to worry about the nuances or complexity of code, algorithms are also written as pseudocodes or flowcharts.
+Technically, algorithms are written in programming languages. However, for the sake of simplifying a solution without needing to worry about the nuances or complexity of code, algorithms may be represented as pseudocodes or flowcharts.
 
 ### Pseudocode
 
@@ -36,3 +36,15 @@ Flowcharts are diagrams (geometric shapes with arrows) used to explain the flow 
 ## Checkpoint solutions
 
 ### Introduction to algorithms checkpoint
+
+At this checkpoint, you are asked to write an algorithm that read a sentence, which ends with a point, character by character, and to determine:
+
+- The length of the sentence (the number of characters).
+- The number of words in the sentence (assuming that the words are separated by a single space).
+- The number of vowels in the sentence.
+
+You have to keep in mind that:
+
+- Each character will be treated separately.
+- The last character is the point.
+- Use three variables as counters.
