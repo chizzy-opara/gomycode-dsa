@@ -39,7 +39,7 @@ Flowcharts are diagrams (geometric shapes with arrows) used to explain the flow 
 
 ### Introduction to algorithms checkpoint
 
-At this checkpoint, you are asked to write an algorithm that read a sentence, which ends with a point, character by character, and to determine:
+At this checkpoint, you are asked to write an algorithm that reads a sentence, which ends with a point, character by character, and to determine:
 
 - The length of the sentence (the number of characters).
 - The number of words in the sentence (assuming that the words are separated by a single space).
@@ -50,3 +50,24 @@ You have to keep in mind that:
 - Each character will be treated separately.
 - The last character is the point.
 - Use three variables as counters.
+
+### Data structures and procedural programming checkpoint
+
+At this checkpoint you are asked to write an algorithm that fulfills the following description:
+
+Problem 1
+
+- Given two sets of elements, find the sum of all distinct elements from the set. In other words, find the sum of all elements which are present in either of the given set.
+- Example:
+  Set 1 : [3, 1, 7, 9], Set 2: [2, 4, 1, 9, 3]
+- Output: 13 (distinct elements 4, 7, 2 )
+- Give a solutions to this problem, using arrays
+
+Problem 2
+You are asked to write an algorithm that fulfill the following:
+
+- Name: Dot product
+- Description:
+  1. Write a procedure, called dot_product which calculates in the variable ps, the dot(scalar) product of v1 and v2 (v1 and v2 are vectors of IR)
+  2. Write an algorithm which determines, for n pairs of given vectors, whether two vectors of given IR are orthogonal, by calling the procedure defined in the previous question. The dot product of two orthogonal vectors is zero.
+  3. Modify the previous algorithm if you use a dot_product function instead of a procedure.
