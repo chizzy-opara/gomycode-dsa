@@ -1,0 +1,30 @@
+ALGORITHM distinctSum
+
+VAR
+  array1: INTEGER[] := [3, 1, 7, 9]
+  array2: INTEGER[] := [2, 4, 1, 9, 3]
+
+BEGIN
+  array3 := []
+  FOR EACH element IN array1
+    IF element NOT IN array2
+      array3.ADD(element)
+    END_IF
+  END_FOR
+
+  FOR EACH element IN array2
+    IF element NOT IN array1
+      array3.ADD(element)
+    END_IF
+  END_FOR
+
+  sum += 0
+  FOR EACH element IN array3
+    sum = sum + element
+  END_FOR 
+
+  Write(sum)
+END
+
+
+[[1, 2], [5, 8], [10, 21]]
