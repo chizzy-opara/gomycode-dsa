@@ -1,7 +1,14 @@
-ALGORITHM insertionSort
-
-VAR
-  array: INTEGER[]
-
-BEGIN
-END
+PROCEDURE insertionSort(array)
+  n := LENGTH(array)
+    
+  FOR i FROM 1 TO n-1 DO
+    key := array[i]
+    j := i - 1
+    
+    WHILE j >= 0 AND array[j] > key DO
+      array[j + 1] := array[j]
+      j := j - 1
+    
+    array[j + 1] := key
+  END_FOR
+END PROCEDURE
