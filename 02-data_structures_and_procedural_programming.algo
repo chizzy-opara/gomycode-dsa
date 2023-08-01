@@ -25,3 +25,35 @@ BEGIN
 
   Write(sum)
 END
+
+PROCEDURE dotProduct(array1, array2)
+BEGIN
+  array3 := []
+
+  FOR i IN array1
+    array3.ADD(array1[i] * array2[i])
+  END_FOR
+
+  sum := 0
+  FOR EACH num IN array3
+    sum = sum + num
+  END_FOR
+
+  Write(sum)
+END
+
+ALGORITHM orthogonalVectors
+
+VAR
+  array1: INTEGER[]
+  array2: INTEGER[]
+
+BEGIN
+  dotP := dotProduct(array1, array2)
+
+  IF dotProduct == 0
+    Write(True)
+  ELSE
+    Write(False)
+  END_IF
+END
