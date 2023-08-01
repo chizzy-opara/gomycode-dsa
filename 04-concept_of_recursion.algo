@@ -1,0 +1,16 @@
+PROCEDURE isPalindrome(word)
+    IF length(word) <= 1 THEN
+        RETURN True
+    END_IF
+    
+    firstChar := first character of s
+    lastChar := last character of s
+    
+    IF firstChar IS different FROM lastChar THEN
+        RETURN False
+    END_IF
+    
+    remainingString := s with firstChar and lastChar removed
+    
+    RETURN isPalindrome(remainingString)
+END_PROCEDURE

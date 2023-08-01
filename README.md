@@ -78,3 +78,11 @@ Insertion sort is a simple sorting algorithm that works the way we sort playing 
 
 1. Each time work only with the first i-1 element from of the array
 2. Pick element arr[i] and insert it into sorted sequence in the array from 0 to i-1.
+
+### Concept of recursion checkpoint
+
+Objective
+
+- Name: Is palindrome.
+- Description:
+  - Test if a word is a palindrome. A word is a palindrome if only if it can be read from left to right or from right to left: gag; kayak; php; radar;....
