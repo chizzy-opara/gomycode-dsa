@@ -1,0 +1,7 @@
+ALGORITHM insertionSort
+
+VAR
+  array: INTEGER[]
+
+BEGIN
+END
