@@ -13,4 +13,4 @@ FUNCTION isPalindrome(word)
     remainingString := word with firstChar and lastChar removed
     
     RETURN isPalindrome(remainingString)
-END_PROCEDURE
+END_FUNCTION
